@@ -1,0 +1,44 @@
+.v-input
+  position: relative
+  transition: .5s ease
+
+  &.disabled
+    pointer-events: none
+    opacity: .25
+
+  input, textarea
+    font-size: 16px
+    background-color: #fff
+    padding: 8px 12px
+    border: 1px solid #eee
+    font-family: 'Open Sans', sans-serif
+    border-radius: 2px
+    width: 100%
+    &:focus
+      outline: none
+    &::-webkit-input-placeholder
+      color: #ccc
+    &.has-icon
+      padding-right: 43px
+
+  textarea
+    height: 160px
+    resize: none
+
+  &__field
+    position: relative
+
+  &__icon
+    position: absolute
+    height: 19px
+    right: 12px
+    top: 10px
+    &.clickable
+      transition: .25s ease
+      cursor: pointer
+      &:hover
+        opacity: .75
+      &:active
+        transition: .1s ease
+        transform: scale(.85)
+        opacity: .5
