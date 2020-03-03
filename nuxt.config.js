@@ -1,8 +1,5 @@
 export default {
-  mode: 'universal',
-  router: {
-    base: '/interview-task'
-  },
+  mode: 'spa',
   /*
    ** Headers of the page
    */
