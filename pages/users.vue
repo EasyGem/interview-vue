@@ -1,1 +1,5 @@
-<template> </template>
+<template>
+  <div>
+    Здесь пусто
+  </div>
+</template>

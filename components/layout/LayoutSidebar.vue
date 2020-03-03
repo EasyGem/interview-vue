@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar">
-    <img src="logo.jpg" alt="" class="sidebar__logo" />
+    <img src="/logo.jpg" alt="" class="sidebar__logo" />
 
     <div class="sidebar__nav">
       <nuxt-link to="/surveys/add" class="sidebar__nav-item">Опросы</nuxt-link>

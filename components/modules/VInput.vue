@@ -6,7 +6,7 @@
       <img
         key="two"
         v-if="icon"
-        :src="`img/icons/${icon}.svg`"
+        :src="`/img/icons/${icon}.svg`"
         @click="submit"
         class="v-input__icon"
         :class="{ clickable: clickableIcon }"

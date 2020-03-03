@@ -5,7 +5,7 @@
     </div>
     <div class="l-spacer"></div>
     <div class="header__user">
-      <img src="user.jpg" alt="" class="header__user-avatar" />
+      <img src="/user.jpg" alt="" class="header__user-avatar" />
       <div class="header__user-name">
         Alexander Gusev
       </div>
